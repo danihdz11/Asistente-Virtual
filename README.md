@@ -1,20 +1,20 @@
-# Asistente Virtual
+# Virtual Assistant
 
-Asistente virtual desarrollado en Python que utiliza reconocimiento de voz y síntesis de voz para interactuar con el usuario. Puede realizar diversas tareas como buscar en Wikipedia, reproducir música en YouTube, informar el día y la hora, contar chistes, abrir sitios web, y mucho más.
+A virtual assistant developed in Python that uses voice recognition and text-to-speech synthesis to interact with the user. It can perform various tasks such as searching Wikipedia, playing music on YouTube, providing the date and time, telling jokes, opening websites, and much more.
 
-## Características
-- **Reconocimiento de voz:** Escucha comandos hablados del usuario.
-- **Síntesis de voz:** Responde en voz alta utilizando un motor de texto a voz.
-- **Integración con servicios populares:** 
-  - Reproducción de videos en YouTube.
-  - Búsquedas en Google y Wikipedia.
-  - Obtención de precios de acciones mediante Yahoo Finance.
-- **Soporte multilingüe:** Configuración para español e inglés.
-- **Funciones de utilidad:** Contar chistes, informar la fecha y hora, abrir aplicaciones web, entre otras.
+## Features
+- **Voice Recognition:** Listens to spoken commands from the user.
+- **Text-to-Speech Synthesis:** Responds audibly using a text-to-speech engine.
+- **Integration with Popular Services:** 
+  - Playing videos on YouTube.
+  - Searching Google and Wikipedia.
+  - Retrieving stock prices via Yahoo Finance.
+- **Multilingual Support:** Configurable for Spanish and English.
+- **Utility Functions:** Telling jokes, providing the date and time, opening web applications, among others.
 
-## Requisitos
+## Requirements
 - Python
-- Paquetes requeridos (instalables con `pip`):
+- Required packages (installable with `pip`):
   - `pyttsx3`
   - `speechrecognition`
   - `pywhatkit`
@@ -22,17 +22,17 @@ Asistente virtual desarrollado en Python que utiliza reconocimiento de voz y sí
   - `pyjokes`
   - `wikipedia`
 
-## Uso
-Ejecuta el script y habla cuando se te indique. Algunos comandos soportados son:
-- "Abrir YouTube"
-- "Qué día es hoy"
-- "Busca en Wikipedia [tema]"
-- "Reproduce [nombre de canción]"
+## Usage
+Run the script and speak when prompted. Some supported commands are:
+- "Open YouTube"
+- "What day is it today"
+- "Search Wikipedia for [topic]"
+- "Play [song name]"
 
-## Personalización
-Puedes ajustar la voz del asistente modificando las opciones de configuración en el código (id1 para español y id2 para inglés). También puedes añadir comandos personalizados editando la función `pedir_cosas()`.
+## Customization
+You can adjust the assistant's voice by modifying the configuration options in the code (id1 for Spanish and id2 for English). Additionally, you can add custom commands by editing the `pedir_cosas()` function.
 
-### Para cambiar el idioma o la voz:
-1. Abre el archivo `asistente.py`.
-2. Localiza la sección de configuración de voz, donde se definen los IDs para español e inglés (id1 y id2).
-3. Modifica el ID según el idioma o la voz que prefieras.
+### To Change the Language or Voice:
+1. Open the `asistente.py` file.
+2. Locate the voice configuration section, where IDs for Spanish and English (id1 and id2) are defined.
+3. Modify the ID according to your preferred language or voice.
